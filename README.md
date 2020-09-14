@@ -11,6 +11,10 @@ The dataset is split into train,val and test such that each of the sets has an e
 data can be downloaded from ```https://www.aicrowd.com/challenges/ai-for-good-ai-blitz-3/problems/fnews```
 ## Evaluation Criteria
 ```F1 Score```
+## Model
+1. 
+2.
+3.
 ## Results
 
 
