@@ -19,7 +19,9 @@ Dataset contains equal number of both the classes. The preprocessing of the corp
 3. Sequential model with embedding and bidirectional layer.
 ## Results
 Model 1 achieved a train accuracy of 96% with a val accuracy of 95%
+
 Model 2 achieved a train accuracy of 99% with a val accuracy of 97%
+
 Model 3 achieved a train accuracy of 99.5% with a val accuracy of 97.3%
 ## Test dataset
 Model 3 achieved highest f1 score of 96.7% in the leaderboard.
