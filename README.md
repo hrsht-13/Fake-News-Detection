@@ -11,10 +11,17 @@ The dataset is split into train,val and test such that each of the sets has an e
 data can be downloaded from ```https://www.aicrowd.com/challenges/ai-for-good-ai-blitz-3/problems/fnews```
 ## Evaluation Criteria
 ```F1 Score```
-## Model
-1. 
-2.
-3.
+## Preprocessing
+Dataset contains equal number of both the classes. The preprocessing of the corpus i.e. tokeninzing, building up the vocabulary, padding the sequences to make them of equal length is done using keras preprosessing library. No stopwords are removed as they changes the meaning of the sentences.
+## Models
+1. Sequential model with simple embedding layer. 
+2. Sequential model with embedding and conv1D layer.
+3. Sequential model with embedding and bidirectional layer.
 ## Results
+Model 1 achieved a train accuracy of 96% with a val accuracy of 95%
+Model 2 achieved a train accuracy of 99% with a val accuracy of 97%
+Model 3 achieved a train accuracy of 99.5% with a val accuracy of 97.3%
+## Test dataset
+Model 3 achieved highest f1 score of 96.7% in the leaderboard.
 
 
